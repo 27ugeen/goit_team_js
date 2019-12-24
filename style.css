@@ -100,7 +100,9 @@ img {
   transition: 0.5s ease-in-out;
 }
 
+.nav__item:hover,
 .nav__item:focus,
+.nav__item:active,
 .home-submenu__item {
   display: block;
 
@@ -123,7 +125,7 @@ img {
   border: none;
   border-bottom: 1px solid #000000;
   /* border-right-style: none; */
-  padding: 0 7px;
+  padding: 0 10px;
 }
 
 /* MAIN */
